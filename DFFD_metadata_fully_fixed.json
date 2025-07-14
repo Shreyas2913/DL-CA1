@@ -1,0 +1,37 @@
+{
+  "vid84_.mp4": {
+    "label": "REAL",
+    "split": "test",
+    "original": null
+  },
+  "vid85_.mp4": {
+    "label": "REAL",
+    "split": "test",
+    "original": null
+  },
+  "vid9_f.mp4": {
+    "label": "FAKE",
+    "split": "test",
+    "original": "vid1_.mp4"
+  },
+  "vid91_f.mp4": {
+    "label": "FAKE",
+    "split": "test",
+    "original": "vid1_.mp4"
+  },
+  "vid92_f.mp4": {
+    "label": "FAKE",
+    "split": "test",
+    "original": "vid2_.mp4"
+  },
+  "vid93_f.mp4": {
+    "label": "FAKE",
+    "split": "test",
+    "original": "vid2_.mp4"
+  },
+  "vid94_f.mp4": {
+    "label": "FAKE",
+    "split": "test",
+    "original": "vid3_.mp4"
+  }
+}
