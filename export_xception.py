@@ -36,5 +36,5 @@ torch.onnx.export(
     opset_version=11
 )
 
-print("✅ ONNX model saved as xception_df.onnx")
+print("ONNX model saved as xception_df.onnx")
 
