@@ -37,12 +37,12 @@ for fname in os.listdir(frames_dir):
         if output_array.ndim == 2 and output_array.shape[1] == 2:
             prob_fake = float(output_array[0, 1])  # class 1 = fake
             predictions[fname] = prob_fake
-            print(f"✅ {fname}: {prob_fake:.4f}")
+            print(f" {fname}: {prob_fake:.4f}")
         else:
             raise ValueError(f"Unexpected output shape: {output_array.shape}")
 
 # Save predictions
 with open(output_json, "w") as f:
     json.dump(predictions, f, indent=2)
-print(f"\n✅ All predictions saved to {output_json}")
+print(f"\n All predictions saved to {output_json}")
 
