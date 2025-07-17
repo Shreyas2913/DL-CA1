@@ -27,7 +27,7 @@ for (filename, prob) in predictions
         push!(y_true, label_num)
         push!(y_score, prob)
     else
-        @warn "⚠️ No metadata for $video_key"
+        @warn " No metadata for $video_key"
     end
 end
 
