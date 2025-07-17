@@ -20,8 +20,8 @@ for root, dirs, files in os.walk(video_dir):
                 frame_filename = f"{base_name}__frame0.jpg"
                 frame_path = os.path.join(output_dir, frame_filename)
                 cv2.imwrite(frame_path, frame)
-                print(f"✅ Saved first frame from {filename} → {frame_filename}")
+                print(f" Saved first frame from {filename} → {frame_filename}")
             else:
-                print(f"❌ Could not read from {filename}")
+                print(f"Could not read from {filename}")
             vid.release()
 
